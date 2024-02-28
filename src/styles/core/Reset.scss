@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(-225deg, #d3f9ed 25%, #d9caff 100%);
+  font-family: 'Inter';
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+
+  @media all and (min-width: 768px) {
+    height: 100vh;
+  }
+}

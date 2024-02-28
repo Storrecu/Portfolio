@@ -1,0 +1,371 @@
+.about {
+  background-color: #fff;
+  margin: auto;
+  width: 80%;
+
+  @media all and (min-width: 1200px) {
+    max-width: 1200px;
+  }
+
+  &-title {
+    position: relative;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    padding: 1.5rem;
+    background: -webkit-linear-gradient(130deg, #8de3c8, #9e7df1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media all and (min-width: 768px) {
+      font-size: 32px;
+    }
+
+    @media all and (min-width: 1200px) {
+      font-size: 40px;
+    }
+
+    &-home-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      color: #9e7df1;
+
+      @media all and (min-width: 768px) {
+        width: 40px;
+        height: 40px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &-info {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    &-brand {
+      padding: 1.5rem;
+      text-align: center;
+
+      &-photo {
+        max-width: 70%;
+        border-radius: 50%;
+
+        @media all and (min-width: 768px) {
+          max-width: 50%;
+        }
+
+        @media all and (min-width: 1200px) {
+          max-width: 40%;
+        }
+      }
+
+      &-pos {
+        line-height: 1.5;
+      }
+    }
+
+    &-title {
+      font-size: 24px;
+      color: #8de3c8;
+      margin: 0.3rem 0;
+
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 32px;
+      }
+    }
+
+    &-text {
+      font-size: 16px;
+
+      @media all and (min-width: 768px) {
+        font-size: 18px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &-desc {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 1.5;
+
+    &-title {
+      font-size: 24px;
+      color: #8de3c8;
+      margin: 0.3rem 0;
+
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 32px;
+      }
+    }
+
+    & p {
+      font-size: 16px;
+
+      @media all and (min-width: 768px) {
+        font-size: 18px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &-experience {
+    text-align: center;
+    padding: 1rem;
+
+    &-title {
+      font-size: 24px;
+      color: #8de3c8;
+      margin: 0.3rem 0;
+
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 32px;
+      }
+    }
+
+    & span {
+      font-size: 16px;
+      line-height: 1.5;
+
+      @media all and (min-width: 768px) {
+        font-size: 18px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 20px;
+      }
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0.3rem 0;
+
+      @media all and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+      }
+    }
+
+    & ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 1.5rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @media all and (min-width: 768px) {
+        justify-content: space-evenly;
+      }
+
+      & li {
+        margin: 0.5rem 0;
+      }
+    }
+
+    & p {
+      text-align: center;
+      margin: auto;
+      width: 285px;
+      padding: 0.5rem;
+      border-style: solid;
+      border-width: 3px;
+      border-image: linear-gradient(45deg, #9e7df1, #8de3c8) 1;
+      font-size: 16px;
+
+      @media all and (min-width: 768px) {
+        font-size: 18px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 20px;
+        width: 450px;
+      }
+
+      &:hover {
+        border-image: linear-gradient(45deg, #8de3c8, #9e7df1) 1;
+      }
+    }
+  }
+
+  &-location {
+    padding: 1.5rem;
+    &-title {
+      font-size: 24px;
+      color: #8de3c8;
+      text-align: center;
+      margin: 0.3rem 0;
+
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 32px;
+      }
+    }
+    &-map {
+      margin: auto;
+      width: 100%;
+      height: 350px;
+    }
+
+    &-map iframe {
+      border-style: solid;
+      border-width: 3px;
+      border-image: linear-gradient(45deg, #9e7df1, #8de3c8) 1;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &-hobbies {
+    position: relative;
+    padding: 1.5rem;
+    line-height: 1.5;
+
+    & h3 {
+      text-align: center;
+      font-size: 24px;
+      color: #8de3c8;
+
+      @media all and (min-width: 768px) {
+        font-size: 28px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 32px;
+      }
+    }
+
+    &-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @media all and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        gap: 0.5rem;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        @media all and (min-width: 768px) {
+          justify-content: space-evenly;
+        }
+      }
+
+      ul li {
+        margin: 0.5rem 0;
+        font-size: 16px;
+        height: 100px;
+
+        @media all and (min-width: 768px) {
+          font-size: 18px;
+          height: 150px;
+        }
+        @media all and (min-width: 1200px) {
+          font-size: 20px;
+        }
+      }
+
+      ul li div {
+        display: block;
+      }
+    }
+    &-arrow {
+      cursor: pointer;
+      text-decoration: none;
+      overflow: hidden;
+
+      &-up {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        color: #8de3c8;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+.anime {
+  &-img-1 {
+    width: 40px;
+  }
+  &-img-2 {
+    width: 60px;
+  }
+  &-img-3 {
+    width: 50px;
+  }
+  &-img-4 {
+    width: 70px;
+  }
+}
+
+.game {
+  &-img-1 {
+    width: 50px;
+  }
+  &-img-2 {
+    width: 50px;
+  }
+  &-img-3 {
+    width: 60px;
+  }
+  &-img-4 {
+    width: 60px;
+  }
+}
+
+.music {
+  &-img-1 {
+    width: 150px;
+  }
+  &-img-2 {
+    width: 110px;
+  }
+  &-img-3 {
+    width: 80px;
+  }
+}
+
+.nails {
+  &-img {
+    width: 100px;
+    height: 100px;
+  }
+}

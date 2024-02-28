@@ -1,0 +1,22 @@
+.landing {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 2s ease;
+
+  &-title {
+    margin: auto;
+    line-height: 15;
+    font-size: 50px;
+    font-style: italic;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.landing.hidden {
+  opacity: 0;
+}
