@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.eacdcbc4.css",
+    "main.css": "/Portfolio/static/css/main.0c1e51fb.css",
     "main.js": "/Portfolio/static/js/main.62ee570a.js",
     "static/media/nail.gif": "/Portfolio/static/media/nail.c1d2bd949439340606f5.gif",
     "static/media/CV-Silvia-Torres-Spanish.pdf": "/Portfolio/static/media/CV-Silvia-Torres-Spanish.87bb7e4fcce90a42fa0e.pdf",
@@ -26,11 +26,11 @@
     "static/media/english.png": "/Portfolio/static/media/english.4a7c14e64a86f7200fb0.png",
     "static/media/todo.png": "/Portfolio/static/media/todo.563de33664d3d8e6b38f.png",
     "index.html": "/Portfolio/index.html",
-    "main.eacdcbc4.css.map": "/Portfolio/static/css/main.eacdcbc4.css.map",
+    "main.0c1e51fb.css.map": "/Portfolio/static/css/main.0c1e51fb.css.map",
     "main.62ee570a.js.map": "/Portfolio/static/js/main.62ee570a.js.map"
   },
   "entrypoints": [
-    "static/css/main.eacdcbc4.css",
+    "static/css/main.0c1e51fb.css",
     "static/js/main.62ee570a.js"
   ]
 }
