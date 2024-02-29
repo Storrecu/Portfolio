@@ -6,7 +6,7 @@ import '../src/styles/core/Reset.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Portfolio">
     <App />
   </BrowserRouter>
 );

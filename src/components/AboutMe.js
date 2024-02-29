@@ -68,7 +68,7 @@ const AboutMe = () => {
       </article>
 
       <article className="about-location">
-        <h4 className="about-location-title">Greetings from Bracelona!</h4>
+        <h4 className="about-location-title">Greetings from Barcelona!</h4>
         <div className="about-location-map">
           <iframe
             title="myFrame"
